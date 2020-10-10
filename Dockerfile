@@ -1,4 +1,3 @@
-
 FROM envoyproxy/envoy:v1.16.0
 
 COPY entrypoint.sh /entrypoint.sh
