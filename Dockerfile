@@ -1,4 +1,4 @@
-FROM envoyproxy/envoy:v1.16.0
+FROM envoyproxy/envoy:v1.14.1
 
 COPY entrypoint.sh /entrypoint.sh
 COPY config.yaml /tmp/config.yaml
